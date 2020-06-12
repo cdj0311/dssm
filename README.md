@@ -14,7 +14,7 @@ tensorflow == 1.13.1
 
    python convert_data.py
    
-   data目录的data.txt中包含了10000条训练数据，格式为：title\tcontent，train.tfrecord是转换完成的tfrecord数据。
+   data目录的data.txt中包含了10000条训练数据，数据为某新闻网站上的标题和对应的内容，格式为：title\tcontent，train.tfrecord是转换完成的tfrecord数据。
 
 2. 模型训练：
 
