@@ -1,8 +1,8 @@
 # dssm
 A BiGRU-Attention DSSM implementation with tensorflow estimator.
 
-之前使用Keras实现过DSSM文本表示模型，(https://github.com/cdj0311/keras_bert_classification/blob/master/bert_dssm.py)
-由于Keras做分布式计算比较麻烦，现在用tensorflow的高级API tf.estimator重写一遍，其中表示层使用双向GRU+Attention，最终输出为64维的向量。
+之前使用Keras和paddlepaddle实现过DSSM文本表示模型，(https://github.com/cdj0311/keras_bert_classification/blob/master/bert_dssm.py， https://github.com/cdj0311/paddledssm)
+由于Keras做分布式计算比较麻烦，而paddlepaddle早已弃用，现在用tensorflow的高级API tf.estimator重写一遍，其中表示层使用双向GRU+Attention，最终输出为64维的向量。
 
 python == 3.6
 
