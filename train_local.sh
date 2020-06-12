@@ -44,7 +44,7 @@ python main.py \
      -char_vocab_size=${char_vocab_size} \
      --NEG=${NEG} \
      --gpuid=${gpuid} \
-     --train_eval=False \
+     --train_eval=True \
      --export_query_model=True \
      --export_doc_model=True \
      --run_on_cluster=False
