@@ -37,7 +37,7 @@ def train_input_fn(filenames=None,
         dataset = tf.data.TFRecordDataset(files)
     dataset = dataset.shuffle(batch_size*10)
     dataset = dataset.map(parse_exp, num_parallel_calls=4)
-    dataset = dataset.batch(batch_size, drop_remainder=True).prefetch(1)
+    dataset = dataset.batch(batch_size, drop_remainder=True).repeat().prefetch(1)
     return dataset
 
 def eval_input_fn(filenames=None,
