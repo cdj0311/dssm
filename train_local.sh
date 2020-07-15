@@ -41,7 +41,7 @@ python main.py \
      --query_max_char_length=${query_max_char_length} \
      --doc_max_char_length=${doc_max_char_length} \
      --last_hidden_size=${last_hidden_size} \
-     -char_vocab_size=${char_vocab_size} \
+     --char_vocab_size=${char_vocab_size} \
      --NEG=${NEG} \
      --gpuid=${gpuid} \
      --train_eval=True \
