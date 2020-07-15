@@ -44,6 +44,6 @@ def eval_input_fn(filenames=None,
     files = tf.gfile.Glob(filenames)
     dataset = tf.data.TFRecordDataset(files)
     dataset = dataset.map(parse_exp, num_parallel_calls=4)
-    dataset = dataset.batch(batch_size)
+    dataset = dataset.batch(batch_size, drop_remainder=True)
     return dataset
 
