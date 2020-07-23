@@ -1,7 +1,7 @@
 #!/bin/sh
 #############################################
 # FileName: train_local.sh
-# Author: cdj0311
+# Author: ChenDajun
 # CreateTime: 2020-06-12
 # Descreption: train script
 #############################################
