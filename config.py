@@ -1,7 +1,7 @@
 # coding:utf-8
 #############################################
 # FileName: config.py
-# Author: cdj0311
+# Author: ChenDajun
 # CreateTime: 2020-06-12
 # Descreption: configuration parameters
 #############################################
