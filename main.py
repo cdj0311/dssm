@@ -1,7 +1,7 @@
 # encoding:utf-8
 #############################################
 # FileName: main.py
-# Author: cdj0311
+# Author: ChenDajun
 # CreateTime: 2020-06-12
 # Descreption: train and predict model
 #############################################
